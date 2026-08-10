@@ -144,7 +144,7 @@ If you prefer to run the code yourself, modify it, or are on macOS/Linux:
 1. **Prerequisites:** Ensure you have Python 3.9 or higher installed.
 2. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/Schrodinger1DSolver.git](https://github.com/your-username/Schrodinger1DSolver.git)
+   git clone [https://github.com/XydiasPanos/Schrodinger1DSolver.git](https://github.com/XydiasPanos/Schrodinger1DSolver.git)
    cd Schrodinger1DSolver
    python main.py
    ```
