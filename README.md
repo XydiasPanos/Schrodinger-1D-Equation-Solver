@@ -49,8 +49,8 @@ The software features a dual-mode interface accessible from the main navigation 
 
 | Mode | Menu Icon | Description |
 | :--- | :---: | :--- |
-| **Time-Independent (TISE)** | ![TISE Icon](docs/icons/tise_icon.png) | Solves for stationary eigenstates $\psi_n(x)$ and energy levels $E_n$. |
-| **Time-Dependent (TDSE)** | ![TDSE Icon](docs/icons/tdse_icon.png) | Simulates real-time wave packet evolution $\Psi(x,t)$ through potential barriers. |
+| **Time-Independent (TISE)** | ![TISE Icon](/icons/tise_icon.png) | Solves for stationary eigenstates $\psi_n(x)$ and energy levels $E_n$. |
+| **Time-Dependent (TDSE)** | ![TDSE Icon](/icons/tdse_icon.png) | Simulates real-time wave packet evolution $\Psi(x,t)$ through potential barriers. |
 
 ---
 
@@ -60,7 +60,7 @@ The software features a dual-mode interface accessible from the main navigation 
 
 Explore attractive or repulsive bound states created by an infinitely narrow potential well located at the origin.
 
-![Single Dirac Delta at x=0](docs/examples/dirac_single.png)
+![Single Dirac Delta at x=0](/icons/dirac_single.png)
 
 * **Potential Configuration:** $V(x) = -\alpha \cdot \delta(x)$
 * **Domain Limits:** $x \in [-5, 5]$
@@ -72,7 +72,7 @@ Explore attractive or repulsive bound states created by an infinitely narrow pot
 
 Combine continuous parabolic confinement with a discrete lattice-like potential to inspect symmetry breaking and band-like state splitting.
 
-![4 Diracs + Harmonic Oscillator](docs/examples/dirac_train_oscillator.png)
+![4 Diracs + Harmonic Oscillator](/icons/dirac_train_oscillator.png)
 
 * **Potential Configuration:** 
   $$V(x) = \frac{1}{2} m \omega^2 x^2 + \sum_{i=1}^{4} v_i \cdot \delta(x - x_i)$$
@@ -87,7 +87,7 @@ Combine continuous parabolic confinement with a discrete lattice-like potential 
 
 Simulate dynamic oscillations of a Gaussian wave packet placed off-center inside a harmonic potential well.
 
-![Wave Packet Dynamic Simulation](docs/examples/wave_packet_tdse.png)
+![Wave Packet Dynamic Simulation](/icons/wave_packet_tdse.png)
 
 * **Potential Configuration:** $V(x) = \frac{1}{2} k x^2$
 * **Packet Parameters:**
