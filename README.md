@@ -133,7 +133,7 @@ You can run `Schrodinger1DSolver` either by launching the standalone executable 
 
 This is the easiest method if you are on Windows and don't want to install Python.
 
-1. Go to the starting page of this repository.
+1. Visit the repository homepage.
 2. Download the latest `Schrodinger1DSolver.exe` file.
 3. Double-click the downloaded `.exe` file to launch the application. *(Note: Windows Defender might show a "SmartScreen" warning since the executable isn't digitally signed by a major publisher. Click "More info" and then "Run anyway").*
 
@@ -144,6 +144,7 @@ If you prefer to run the code yourself, modify it, or are on macOS/Linux:
 1. **Prerequisites:** Ensure you have Python 3.9 or higher installed.
 2. **Clone the repository:**
    ```bash
+   pip install numpy scipy PyQt5 matplotlib
    git clone https://github.com/XydiasPanos/Schrodinger-1D-Equation-Solver.git Schrodinger1DSolver
    cd Schrodinger1DSolver
    python main.py
