@@ -12,7 +12,7 @@ An interactive quantum mechanics simulation engine designed to solve, visualize,
 - [Key Features](#key-features)
 - [User Interface & Navigation](#user-interface--navigation)
 - [Preset Examples & Configurations](#preset-examples--configurations)
-  - [1. Single Dirac Delta Potential at $x = 0$](#1-single-dirac-delta-potential-at-x--0)
+  - [1. Single Dirac Delta Potential at x = 0](#1-single-dirac-delta-potential-at-x--0)
   - [2. Dirac Delta Train (4 Spikes) + Harmonic Oscillator](#2-dirac-delta-train-4-spikes--harmonic-oscillator)
   - [3. Time-Dependent Wave Packet in a Harmonic Well](#3-time-dependent-wave-packet-in-a-harmonic-well)
 - [Physics Background](#physics-background)
@@ -130,8 +130,8 @@ Throughout both TISE and TDSE modes, you can export high-resolution data and plo
 
 ### Prerequisites
 
-* Python 3.9+ (or compiled application executable)
-* Required dependencies (if running from source):
+* Python 3.9+
+* Required dependencies:
   ```bash
   pip install numpy scipy matplotlib pyqt5
   ```
@@ -144,9 +144,17 @@ Throughout both TISE and TDSE modes, you can export high-resolution data and plo
    cd Schrodinger1DSolver
    ```
 
-2. **Launch the Application:**
+2. **Ensure all source files are in the directory:**
+   * `main.py`, `app_window.py`, `solvers.py`, `widgets.py`, `styles.py`, and `app_icon.ico`
+
+3. **Launch the Application:**
    ```bash
    python main.py
+   ```
+   
+3. **Run by Exe:**
+   ```bash
+   Run Schrodinger1DSolver.exe
    ```
 
 ---
