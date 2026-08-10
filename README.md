@@ -144,7 +144,7 @@ This is the easiest method if you are on Windows and don't want to install Pytho
 If you prefer to run the code yourself, modify it, or are on macOS/Linux:
 
 1. **Prerequisites:** Ensure you have Python 3.9 or higher installed.
-2. **Clone the repository:**
+2. **Install Libraries & Clone the repository:**
    ```bash
    pip install numpy scipy PyQt5 matplotlib
    git clone https://github.com/XydiasPanos/Schrodinger-1D-Equation-Solver.git Schrodinger1DSolver
