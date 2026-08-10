@@ -125,38 +125,29 @@ Throughout both TISE and TDSE modes, you can export high-resolution data and plo
 * **Raw Numerical Data:** Export `.csv` files containing spatial grid coordinates, potential values, wavefunctions, and eigenenergy tables.
 
 ---
+## Getting Started (Installation & Running)
 
-## Getting Started
+You can run `Schrodinger1DSolver` either by launching the standalone executable (no installation required) or by running it directly from the Python source code.
 
-### Prerequisites
+### Option 1: Run via Standalone Executable (.exe)
 
-* Python 3.9+
-* Required dependencies:
-  ```bash
-  pip install numpy scipy matplotlib pyqt5
-  ```
+This is the easiest method if you are on Windows and don't want to install Python.
 
-### Installation & Run
+1. Go to the [Releases](https://github.com/XydiasPanos/Schrodinger1DSolver/releases) page of this repository.
+2. Download the latest `Schrodinger1DSolver.exe` file.
+3. Double-click the downloaded `.exe` file to launch the application. *(Note: Windows Defender might show a "SmartScreen" warning since the executable isn't digitally signed by a major publisher. Click "More info" and then "Run anyway").*
 
-1. **Clone the repository:**
+### Option 2: Run via Python (From Source)
+
+If you prefer to run the code yourself, modify it, or are on macOS/Linux:
+
+1. **Prerequisites:** Ensure you have Python 3.9 or higher installed.
+2. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/Schrodinger1DSolver.git
+   git clone [https://github.com/your-username/Schrodinger1DSolver.git](https://github.com/your-username/Schrodinger1DSolver.git)
    cd Schrodinger1DSolver
-   ```
-
-2. **Ensure all source files are in the directory:**
-   * `main.py`, `app_window.py`, `solvers.py`, `widgets.py`, `styles.py`, and `app_icon.ico`
-
-3. **Launch the Application:**
-   ```bash
    python main.py
    ```
-   
-3. **Run by Exe:**
-   ```bash
-   Run Schrodinger1DSolver.exe
-   ```
-
 ---
 
 ## License
