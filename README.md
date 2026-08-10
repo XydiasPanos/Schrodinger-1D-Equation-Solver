@@ -133,7 +133,7 @@ You can run `Schrodinger1DSolver` either by launching the standalone executable 
 
 This is the easiest method if you are on Windows and don't want to install Python.
 
-1. Go to the [Releases](https://github.com/XydiasPanos/Schrodinger1DSolver/releases) page of this repository.
+1. Go to the starting page of this repository.
 2. Download the latest `Schrodinger1DSolver.exe` file.
 3. Double-click the downloaded `.exe` file to launch the application. *(Note: Windows Defender might show a "SmartScreen" warning since the executable isn't digitally signed by a major publisher. Click "More info" and then "Run anyway").*
 
