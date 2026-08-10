@@ -47,7 +47,7 @@ An interactive quantum mechanics simulation engine designed to solve, visualize,
 
 The software features a dual-mode interface accessible from the main navigation panel:
 
-| Mode | Menu Icon | Description |
+| Mode | Menu Preview | Description |
 | :--- | :---: | :--- |
 | **Time-Independent (TISE)** | ![TISE Icon](/icons/tise_icon.png) | Solves for stationary eigenstates $\psi_n(x)$ and energy levels $E_n$. |
 | **Time-Dependent (TDSE)** | ![TDSE Icon](/icons/tdse_icon.png) | Simulates real-time wave packet evolution $\Psi(x,t)$ through potential barriers. |
